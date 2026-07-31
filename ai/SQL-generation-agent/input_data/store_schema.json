@@ -1,0 +1,37 @@
+{
+  "database": "MockStoreDB",
+  "dbms_type": "MS SQL SERVER",
+  "tables": {
+    "dbo.MockCustomers": [
+      "CustomerId",
+      "FullName",
+      "City",
+      "SignupDate"
+    ],
+    "dbo.MockOrders": [
+      "OrderId",
+      "CustomerId",
+      "OrderDate",
+      "Status",
+      "TotalAmount"
+    ],
+    "dbo.MockOrderItems": [
+      "OrderItemId",
+      "OrderId",
+      "ProductId",
+      "Quantity",
+      "UnitPrice"
+    ],
+    "dbo.MockProducts": [
+      "ProductId",
+      "ProductName",
+      "Category",
+      "IsActive"
+    ]
+  },
+  "business_rules": [
+    "Only orders with Status='paid' should be counted as completed sales.",
+    "Revenue can be calculated from MockOrders.TotalAmount or from order items as Quantity * UnitPrice depending on the question.",
+    "IsActive=1 means the product is currently active."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "database": "MockUniversityDB",
+  "dbms_type": "MS SQL SERVER",
+  "tables": {
+    "dbo.MockStudents": [
+      "StudentId",
+      "FullName",
+      "Major",
+      "EntryYear"
+    ],
+    "dbo.MockCourses": [
+      "CourseId",
+      "CourseTitle",
+      "Department",
+      "Credits"
+    ],
+    "dbo.MockEnrollments": [
+      "EnrollmentId",
+      "StudentId",
+      "CourseId",
+      "Semester",
+      "Grade"
+    ]
+  },
+  "business_rules": [
+    "Grade is stored from 0 to 20.",
+    "Passing grade is 10 or higher.",
+    "Semester values are strings such as 1403-1 and 1403-2."
+  ]
+}

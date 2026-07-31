@@ -1,0 +1,18 @@
+{
+  "question": "تعداد اسناد حسابداری به تفکیک سال؟",
+  "schema": {
+    "database": "MockFinanceDB",
+    "dbms_type": "MS SQL SERVER",
+    "tables": {
+      "dbo.MockAccDocLines": ["FinancialYear", "DocNo"]
+    }
+  },
+  "env": {
+    "LLM_BASE_URL": "http://localhost:8000/v1",
+    "LLM_API_KEY": "provided-by-runtime",
+    "LLM_MODEL": "local-model",
+    "SQL_DIALECT": "SQLServer",
+    "CURRENT_DATE": "2026-06-15",
+    "TIMEZONE": "Asia/Tehran"
+  }
+}

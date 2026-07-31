@@ -1,0 +1,24 @@
+{
+  "dbo.MockCustomers": [
+    {"CustomerId": 1, "FullName": "علی رضایی", "City": "تهران", "SignupDate": "2026-01-10"},
+    {"CustomerId": 2, "FullName": "مریم احمدی", "City": "شیراز", "SignupDate": "2026-02-05"},
+    {"CustomerId": 3, "FullName": "رضا نوری", "City": "تهران", "SignupDate": "2026-03-12"}
+  ],
+  "dbo.MockProducts": [
+    {"ProductId": 1, "ProductName": "لپ‌تاپ آموزشی", "Category": "electronics", "IsActive": 1},
+    {"ProductId": 2, "ProductName": "دفتر برنامه‌ریزی", "Category": "stationery", "IsActive": 1},
+    {"ProductId": 3, "ProductName": "هدفون قدیمی", "Category": "electronics", "IsActive": 0}
+  ],
+  "dbo.MockOrders": [
+    {"OrderId": 101, "CustomerId": 1, "OrderDate": "2026-04-01", "Status": "paid", "TotalAmount": 45000000},
+    {"OrderId": 102, "CustomerId": 2, "OrderDate": "2026-04-03", "Status": "cancelled", "TotalAmount": 12000000},
+    {"OrderId": 103, "CustomerId": 1, "OrderDate": "2026-05-10", "Status": "paid", "TotalAmount": 18000000},
+    {"OrderId": 104, "CustomerId": 3, "OrderDate": "2026-05-15", "Status": "paid", "TotalAmount": 7500000}
+  ],
+  "dbo.MockOrderItems": [
+    {"OrderItemId": 1, "OrderId": 101, "ProductId": 1, "Quantity": 1, "UnitPrice": 45000000},
+    {"OrderItemId": 2, "OrderId": 102, "ProductId": 2, "Quantity": 3, "UnitPrice": 4000000},
+    {"OrderItemId": 3, "OrderId": 103, "ProductId": 2, "Quantity": 6, "UnitPrice": 3000000},
+    {"OrderItemId": 4, "OrderId": 104, "ProductId": 2, "Quantity": 3, "UnitPrice": 2500000}
+  ]
+}

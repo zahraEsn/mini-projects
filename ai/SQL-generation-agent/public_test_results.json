@@ -1,0 +1,55 @@
+{
+  "tests": [
+    {
+      "name": "test_general_domains",
+      "passed": true,
+      "score": 5,
+      "max_score": 5,
+      "message": "passed",
+      "duration_ms": 3466
+    },
+    {
+      "name": "test_interface",
+      "passed": true,
+      "score": 5,
+      "max_score": 5,
+      "message": "passed",
+      "duration_ms": 3778
+    },
+    {
+      "name": "test_output_format",
+      "passed": true,
+      "score": 5,
+      "max_score": 5,
+      "message": "passed",
+      "duration_ms": 4644
+    },
+    {
+      "name": "test_runtime_variables",
+      "passed": true,
+      "score": 5,
+      "max_score": 5,
+      "message": "passed",
+      "duration_ms": 3999
+    },
+    {
+      "name": "test_schema_awareness",
+      "passed": true,
+      "score": 5,
+      "max_score": 5,
+      "message": "passed",
+      "duration_ms": 4472
+    },
+    {
+      "name": "test_sql_safety",
+      "passed": true,
+      "score": 5,
+      "max_score": 5,
+      "message": "passed",
+      "duration_ms": 6582
+    }
+  ],
+  "total_score": 30,
+  "max_score": 30,
+  "status": "passed"
+}

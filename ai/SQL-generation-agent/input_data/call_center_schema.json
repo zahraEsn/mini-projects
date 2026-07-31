@@ -1,0 +1,29 @@
+{
+  "database": "MockCallCenterDB",
+  "dbms_type": "MS SQL SERVER",
+  "tables": {
+    "dbo.MockCallLogs": [
+      "CallType",
+      "Source",
+      "Destination",
+      "CallerID",
+      "CallStatus",
+      "StartTime",
+      "EndTime",
+      "TotalDurationSeconds",
+      "TalkDurationSeconds",
+      "WaitDurationSeconds",
+      "InboundRoute",
+      "OutboundRoute",
+      "SourceCurrentPerson",
+      "DestinationCurrentPerson"
+    ]
+  },
+  "business_rules": [
+    "CallType=incoming means a call from outside to the organization.",
+    "CallType=outgoing means a call from the organization to outside.",
+    "CallType=local means an internal call.",
+    "Answered calls have CallStatus='ANSWERED'.",
+    "TalkDurationSeconds and WaitDurationSeconds are numeric duration values stored as strings in the source system."
+  ]
+}

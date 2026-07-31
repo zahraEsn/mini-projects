@@ -1,0 +1,19 @@
+{
+  "dbo.MockStudents": [
+    {"StudentId": 1, "FullName": "نگار کریمی", "Major": "Computer Engineering", "EntryYear": "1401"},
+    {"StudentId": 2, "FullName": "امیر حسینی", "Major": "Industrial Engineering", "EntryYear": "1402"},
+    {"StudentId": 3, "FullName": "سارا محمدی", "Major": "Computer Engineering", "EntryYear": "1402"}
+  ],
+  "dbo.MockCourses": [
+    {"CourseId": 10, "CourseTitle": "Database Systems", "Department": "Computer", "Credits": 3},
+    {"CourseId": 11, "CourseTitle": "Statistics", "Department": "Industrial", "Credits": 3},
+    {"CourseId": 12, "CourseTitle": "AI Fundamentals", "Department": "Computer", "Credits": 2}
+  ],
+  "dbo.MockEnrollments": [
+    {"EnrollmentId": 1001, "StudentId": 1, "CourseId": 10, "Semester": "1403-1", "Grade": 18.5},
+    {"EnrollmentId": 1002, "StudentId": 1, "CourseId": 12, "Semester": "1403-1", "Grade": 17.0},
+    {"EnrollmentId": 1003, "StudentId": 2, "CourseId": 11, "Semester": "1403-1", "Grade": 13.0},
+    {"EnrollmentId": 1004, "StudentId": 3, "CourseId": 10, "Semester": "1403-1", "Grade": 9.0},
+    {"EnrollmentId": 1005, "StudentId": 3, "CourseId": 12, "Semester": "1403-2", "Grade": 16.0}
+  ]
+}

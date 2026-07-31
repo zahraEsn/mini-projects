@@ -1,0 +1,4 @@
+{
+  "sql": "SELECT FinancialYear, COUNT(DISTINCT DocNo) AS document_count FROM dbo.MockAccDocLines GROUP BY FinancialYear ORDER BY FinancialYear;"
+}
+	

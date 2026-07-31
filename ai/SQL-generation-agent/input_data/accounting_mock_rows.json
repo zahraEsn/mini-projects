@@ -1,0 +1,15 @@
+[
+  {"Ser": 1, "RialCost": 0, "FDesc": "opening marker", "Bed": 0, "Bes": 0, "Kol": "11", "Moin1": null, "FinancialYear": "1401", "DocNo": 1, "DocDateF": "1401/01/10", "Kind": 1, "MonthName": "فروردین", "Month": "1"},
+  {"Ser": 2, "RialCost": 0, "FDesc": "opening marker", "Bed": 0, "Bes": 0, "Kol": "11", "Moin1": null, "FinancialYear": "1401", "DocNo": 2, "DocDateF": "1401/02/10", "Kind": 1, "MonthName": "اردیبهشت", "Month": "2"},
+  {"Ser": 3, "RialCost": 0, "FDesc": "opening marker", "Bed": 0, "Bes": 0, "Kol": "11", "Moin1": null, "FinancialYear": "1402", "DocNo": 1, "DocDateF": "1402/01/12", "Kind": 1, "MonthName": "فروردین", "Month": "1"},
+  {"Ser": 4, "RialCost": 0, "FDesc": "opening marker", "Bed": 0, "Bes": 0, "Kol": "11", "Moin1": null, "FinancialYear": "1402", "DocNo": 2, "DocDateF": "1402/03/12", "Kind": 1, "MonthName": "خرداد", "Month": "3"},
+  {"Ser": 5, "RialCost": 0, "FDesc": "opening marker", "Bed": 0, "Bes": 0, "Kol": "11", "Moin1": null, "FinancialYear": "1402", "DocNo": 3, "DocDateF": "1402/04/12", "Kind": 1, "MonthName": "تیر", "Month": "4"},
+  {"Ser": 6, "RialCost": 0, "FDesc": "opening marker", "Bed": 0, "Bes": 0, "Kol": "11", "Moin1": null, "FinancialYear": "1403", "DocNo": 1, "DocDateF": "1403/01/15", "Kind": 1, "MonthName": "فروردین", "Month": "1"},
+  {"Ser": 7, "RialCost": 0, "FDesc": "opening marker", "Bed": 0, "Bes": 0, "Kol": "11", "Moin1": null, "FinancialYear": "1403", "DocNo": 2, "DocDateF": "1403/02/15", "Kind": 1, "MonthName": "اردیبهشت", "Month": "2"},
+  {"Ser": 8, "RialCost": 0, "FDesc": "opening marker", "Bed": 0, "Bes": 0, "Kol": "11", "Moin1": null, "FinancialYear": "1403", "DocNo": 3, "DocDateF": "1403/03/15", "Kind": 1, "MonthName": "خرداد", "Month": "3"},
+  {"Ser": 9, "RialCost": 0, "FDesc": "opening marker", "Bed": 0, "Bes": 0, "Kol": "11", "Moin1": null, "FinancialYear": "1403", "DocNo": 4, "DocDateF": "1403/04/15", "Kind": 1, "MonthName": "تیر", "Month": "4"},
+  {"Ser": 10, "RialCost": -120000000, "FDesc": "mock product sale", "Bed": 0, "Bes": 120000000, "Kol": "61", "Moin1": null, "FinancialYear": "1403", "DocNo": 1, "DocDateF": "1403/01/20", "Kind": 2, "MonthName": "فروردین", "Month": "1"},
+  {"Ser": 11, "RialCost": -180000000, "FDesc": "mock service sale", "Bed": 0, "Bes": 180000000, "Kol": "61", "Moin1": null, "FinancialYear": "1403", "DocNo": 2, "DocDateF": "1403/02/20", "Kind": 2, "MonthName": "اردیبهشت", "Month": "2"},
+  {"Ser": 12, "RialCost": -90000000, "FDesc": "mock support revenue", "Bed": 0, "Bes": 90000000, "Kol": "62", "Moin1": null, "FinancialYear": "1403", "DocNo": 3, "DocDateF": "1403/03/20", "Kind": 2, "MonthName": "خرداد", "Month": "3"},
+  {"Ser": 13, "RialCost": 75000000, "FDesc": "mock operating expense", "Bed": 75000000, "Bes": 0, "Kol": "71", "Moin1": null, "FinancialYear": "1403", "DocNo": 4, "DocDateF": "1403/04/20", "Kind": 1, "MonthName": "تیر", "Month": "4"}
+]

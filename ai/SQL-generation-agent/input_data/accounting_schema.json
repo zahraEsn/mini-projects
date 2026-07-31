@@ -1,0 +1,27 @@
+{
+  "database": "MockFinanceDB",
+  "dbms_type": "MS SQL SERVER",
+  "tables": {
+    "dbo.MockAccDocLines": [
+      "Ser",
+      "RialCost",
+      "FDesc",
+      "Bed",
+      "Bes",
+      "Kol",
+      "Moin1",
+      "FinancialYear",
+      "DocNo",
+      "DocDateF",
+      "Kind",
+      "MonthName",
+      "Month"
+    ]
+  },
+  "business_rules": [
+    "Kol codes starting with 6 represent revenue accounts. Use ABS(RialCost) for revenue and sales calculations.",
+    "Kol codes starting with 7 represent expense accounts. Use RialCost for expense calculations.",
+    "FinancialYear stores Persian/Solar Hijri financial years such as 1403.",
+    "Month stores month number and MonthName stores Persian month name."
+  ]
+}
