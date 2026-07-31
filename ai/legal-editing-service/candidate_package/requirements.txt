@@ -1,0 +1,10 @@
+# Core dependencies
+pydantic==2.11.7
+openai>=1.50.0
+python-dotenv>=1.0.1
+
+# HTTP client (used internally by OpenAI SDK)
+httpx>=0.27.0
+
+# Testing (optional for local development)
+pytest>=8.3.0

@@ -1,0 +1,121 @@
+{
+  "tests": [
+    {
+      "passed": true,
+      "score": 10,
+      "max_score": 10,
+      "message": "ورودی خالی بدون خطا مدیریت شد.",
+      "model_output": {
+        "score": 1.0,
+        "comments": "متن ورودی خالی است و اشکال نگارشی برای بررسی وجود ندارد.",
+        "issues": [],
+        "summary": {
+          "total_issues": 0,
+          "by_type": {}
+        }
+      },
+      "name": "test_empty_input",
+      "duration_ms": 8589
+    },
+    {
+      "passed": true,
+      "score": 10,
+      "max_score": 10,
+      "message": "ساختار خروجی صحیح است.",
+      "model_output": {
+        "score": 1.0,
+        "comments": "متن از نظر املایی و نگارشی کاملاً صحیح است و هیچ خطایی در آن مشاهده نمی‌شود.",
+        "issues": [],
+        "summary": {
+          "total_issues": 0,
+          "by_type": {}
+        }
+      },
+      "name": "test_output_shema",
+      "duration_ms": 23267
+    },
+    {
+      "passed": true,
+      "score": 10,
+      "max_score": 10,
+      "message": "score معتبر است.",
+      "model_output": {
+        "score": 1.0,
+        "comments": "متن از نظر املایی و نگارشی کاملاً صحیح است و هیچ خطایی در آن مشاهده نمی‌شود.",
+        "issues": [],
+        "summary": {
+          "total_issues": 0,
+          "by_type": {}
+        }
+      },
+      "name": "test_score_range",
+      "duration_ms": 16503
+    },
+    {
+      "passed": true,
+      "score": 15,
+      "max_score": 15,
+      "message": "summary با issues سازگار است.",
+      "model_output": {
+        "score": 0.3,
+        "comments": "متن ورودی حاوی تعداد قابل‌توجهی خطای املایی، فاصله‌گذاری و فقدان نشانهٔ پایانی است که خوانایی و دقت حقوقی آن را به‌شدت کاهش داده است.",
+        "issues": [
+          {
+            "incorrect_text": "ان",
+            "correct_text": "آن",
+            "issue_type": "املاء",
+            "explanation": "نوشتار نادرست ضمیر و حذف نشانهٔ تنوین.",
+            "context": "با ان از سازکاری"
+          },
+          {
+            "incorrect_text": "خلاسه",
+            "correct_text": "خلاصه",
+            "issue_type": "املاء",
+            "explanation": "حذف حرف «ص» و نوشتار نادرست کلمه.",
+            "context": "سازکاری خلاسه بابقیه"
+          },
+          {
+            "incorrect_text": "بابقیه",
+            "correct_text": "با بقیه",
+            "issue_type": "علائم_نگارشی",
+            "explanation": "چسبیده‌نویسی حرف اضافه «با» به کلمهٔ بعد.",
+            "context": "خلاسه بابقیه موارد"
+          },
+          {
+            "incorrect_text": "اتمینان",
+            "correct_text": "اطمینان",
+            "issue_type": "املاء",
+            "explanation": "جایگزینی حرف «ت» به جای «ط» در نوشتار کلمه.",
+            "context": "موارد اتمینان هاصل"
+          },
+          {
+            "incorrect_text": "هاصل",
+            "correct_text": "حاصل",
+            "issue_type": "املاء",
+            "explanation": "جایگزینی حرف «ه» به جای «ح» در نوشتار کلمه.",
+            "context": "اتمینان هاصل شود"
+          },
+          {
+            "incorrect_text": "شود",
+            "correct_text": "شود.",
+            "issue_type": "علائم_نگارشی",
+            "explanation": "نبود نشانهٔ پایانی (نقطه) در انتهای جمله.",
+            "context": "موارد اتمینان هاصل شود"
+          }
+        ],
+        "summary": {
+          "total_issues": 6,
+          "by_type": {
+            "املاء": 4,
+            "علائم_نگارشی": 2
+          }
+        }
+      },
+      "name": "test_summary_consistency",
+      "duration_ms": 57152
+    }
+  ],
+  "total_score": 45,
+  "max_score": 45,
+  "status": "passed"
+}
